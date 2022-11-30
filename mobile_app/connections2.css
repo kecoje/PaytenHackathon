@@ -1,0 +1,622 @@
+.connections2-container {
+  min-height: 100vh;
+}
+.connections2-connections2 {
+  width: 100%;
+  height: 812px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.connections2-background {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 116px;
+  position: absolute;
+  border-color: rgba(150, 150, 150, 1);
+  border-radius: 0 0 39px 39px;
+}
+.connections2-menu {
+  top: 739px;
+  left: 0px;
+  width: 375px;
+  height: 73px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.connections2-rectangle {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 73px;
+  position: absolute;
+  border-color: rgba(153, 163, 176, 1);
+  border-style: solid;
+  border-width: 0.20000000298023224px;
+}
+.connections2-home-indicator {
+  top: 39px;
+  left: 121.5px;
+  width: 134px;
+  height: 34px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.connections2-home-indicator1 {
+  top: 21px;
+  left: 0px;
+  width: 134px;
+  height: 5px;
+  position: absolute;
+  border-color: rgba(150, 150, 150, 1);
+  border-radius: 100px;
+}
+.connections2-profile {
+  top: 10px;
+  left: 311px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.connections2-shape {
+  top: 0px;
+  left: 0px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.connections2-profile1 {
+  top: 10px;
+  left: 311px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.connections2-shape1 {
+  top: 0px;
+  left: 0px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.connections2-mess {
+  top: 5px;
+  left: 176px;
+  width: 29px;
+  height: 31px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.connections2-shape2 {
+  top: 5px;
+  left: 0px;
+  width: 24px;
+  height: 26px;
+  position: absolute;
+}
+.connections2-oval {
+  top: 0px;
+  left: 16px;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  border-color: rgba(150, 150, 150, 1);
+}
+.connections2-ellipse1 {
+  top: 2px;
+  left: 29px;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.connections2-ellipse11 {
+  top: 0px;
+  left: 0px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  border-color: transparent;
+}
+.connections2-srce1 {
+  top: 0px;
+  left: 0px;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.connections2-group {
+  top: 33px;
+  left: 8.000015258789062px;
+  width: 26px;
+  height: 23px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.connections2-vector {
+  top: 0px;
+  left: 0px;
+  width: 26px;
+  height: 23px;
+  position: absolute;
+}
+.connections2-buttons {
+  top: 671px;
+  left: 127px;
+  width: 125.0999984741211px;
+  height: 54px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.connections2-close {
+  top: 0px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.connections2-oval1 {
+  top: 0px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 0.03999999910593033);
+  border-style: solid;
+  border-width: 0.5px;
+}
+.connections2-multiply {
+  top: 18px;
+  left: 18px;
+  width: 18.947368621826172px;
+  height: 18.947368621826172px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.connections2-path {
+  top: 0px;
+  left: 0px;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+}
+.connections2-like {
+  top: 0px;
+  left: 72px;
+  width: 53.099998474121094px;
+  height: 54px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.connections2-oval2 {
+  top: 0px;
+  left: 0px;
+  width: 53px;
+  height: 54px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.03999999910593033);
+  border-style: solid;
+  border-width: 0.5px;
+}
+.connections2-like1 {
+  top: 17.052631378173828px;
+  left: 16.089473724365234px;
+  width: 21.789474487304688px;
+  height: 19.894737243652344px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.connections2-path1 {
+  top: 0px;
+  left: 0px;
+  width: 22px;
+  height: 20px;
+  position: absolute;
+}
+.connections2-text {
+  top: 47px;
+  left: 21px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.connections2-status-bar-dark {
+  top: 0px;
+  left: 0px;
+  width: 376px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.connections2-battery {
+  top: 17.33333396911621px;
+  left: 336.33331298828125px;
+  width: 24.32803726196289px;
+  height: 11.333333015441895px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.connections2-border {
+  top: 0px;
+  left: 0px;
+  width: 22px;
+  height: 11px;
+  opacity: 0.35;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2.6666667461395264px;
+}
+.connections2-cap {
+  top: 3.6666667461395264px;
+  left: 23px;
+  width: 1px;
+  height: 4px;
+  opacity: 0.40;
+  position: absolute;
+}
+.connections2-capacity {
+  top: 1.9999998807907104px;
+  left: 2px;
+  width: 18px;
+  height: 7px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 1.3333333730697632px;
+}
+.connections2-wifi {
+  top: 17.330673217773438px;
+  left: 316px;
+  width: 15px;
+  height: 11px;
+  position: absolute;
+}
+.connections2-cellular-connection {
+  top: 17.666667938232422px;
+  left: 294px;
+  width: 17px;
+  height: 11px;
+  position: absolute;
+}
+.connections2-time-style {
+  top: 7px;
+  left: 21px;
+  width: 54px;
+  height: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.connections2-text2 {
+  top: 7px;
+  color: rgba(255, 255, 255, 1);
+  width: 54px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Nunito;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.connections2-background1 {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 116px;
+  position: absolute;
+  border-color: rgba(150, 150, 150, 1);
+  border-radius: 0 0 39px 39px;
+}
+.connections2-text4 {
+  top: 47px;
+  left: 21px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.connections2-status-bar-dark1 {
+  top: 0px;
+  left: 0px;
+  width: 376px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.connections2-battery1 {
+  top: 17.33333396911621px;
+  left: 336.33331298828125px;
+  width: 24.32803726196289px;
+  height: 11.333333015441895px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.connections2-border1 {
+  top: 0px;
+  left: 0px;
+  width: 22px;
+  height: 11px;
+  opacity: 0.35;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2.6666667461395264px;
+}
+.connections2-cap1 {
+  top: 3.6666667461395264px;
+  left: 23px;
+  width: 1px;
+  height: 4px;
+  opacity: 0.40;
+  position: absolute;
+}
+.connections2-capacity1 {
+  top: 1.9999998807907104px;
+  left: 2px;
+  width: 18px;
+  height: 7px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 1.3333333730697632px;
+}
+.connections2-wifi1 {
+  top: 17.330673217773438px;
+  left: 316px;
+  width: 15px;
+  height: 11px;
+  position: absolute;
+}
+.connections2-cellular-connection1 {
+  top: 17.666667938232422px;
+  left: 294px;
+  width: 17px;
+  height: 11px;
+  position: absolute;
+}
+.connections2-time-style1 {
+  top: 7px;
+  left: 21px;
+  width: 54px;
+  height: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.connections2-text6 {
+  top: 7px;
+  color: rgba(255, 255, 255, 1);
+  width: 54px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Nunito;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.connections2-photo2 {
+  top: 183px;
+  left: 28px;
+  width: 320px;
+  height: 376px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 0.03999999910593033);
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 13px;
+}
+.connections2-photo21 {
+  top: 198px;
+  left: 21px;
+  width: 334px;
+  height: 402px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 0.03999999910593033);
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 13px;
+}
+@media(max-width: 479px) {
+  .connections2-vector {
+    top: -21px;
+    right: -2px;
+  }
+}
