@@ -45,6 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             child: QRScanner(getScanned: (String scanned) {
                               setState(() {
                                 scannedUserId = scanned;
+                                printLogo();
                               });
                             }),
                           );
@@ -78,7 +79,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 )
               : Column(
                   children: [
-                    Text(scannedUserId!),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: paddy),
+                      child: Text(scannedUserId!),
+                    ),
                     SizedBox(height: paddy),
                     Container(
                       width: MediaQuery.of(context).size.width * 0.4,
