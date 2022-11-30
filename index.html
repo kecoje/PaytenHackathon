@@ -125,7 +125,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
     data-tag="font" />
   <script src="swipe.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="index.js"></script>
   <link rel="stylesheet" href="./style.css" />
 </head>
@@ -191,13 +191,13 @@
           </div>
         </div>
         <div class="connections1-buttons">
-          <div class="connections1-close" onclick="stateChange()">
+          <div class="connections1-close" onclick='stateChange("-=100")'>
             <img alt="Oval1291" src="public/playground_assets/oval1291-gd7-200h.png" class="connections1-oval1" />
             <div class="connections1-multiply">
               <img alt="Path1293" src="public/playground_assets/path1293-lti7.svg" class="connections1-path" />
             </div>
           </div>
-          <div class="connections1-like" onclick="stateChange()">
+          <div class="connections1-like" onclick='stateChange("+=100")'>
             <img alt="Oval1295" src="public/playground_assets/oval1295-gmyu-200h.png" class="connections1-oval2" />
             <div class="connections1-like1">
               <img alt="Path1297" src="public/playground_assets/path1297-k6yl.svg" class="connections1-path1" />

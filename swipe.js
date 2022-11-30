@@ -18,28 +18,51 @@ function handleTouchStart(evt) {
     yDown = firstTouch.clientY;
 };
 
-function stateChange() {
+function stateChange(side) {
     switch (state) {
         case "slika1":
-            document.getElementById("slika1").style.display = "None";
+            myLeft = $(document.getElementById("slika1")).css("left")
+            $(document.getElementById("slika1")).animate({
+                left: side
+            }, 500, function () {
+                document.getElementById("slika1").style.display = "None";
+            });
             state = "slika2";
             break;
         case "slika2":
-            document.getElementById("slika2").style.display = "None";
+            myLeft = $(document.getElementById("slika2")).css("left")
+            $(document.getElementById("slika2")).animate({
+                left: side
+            }, 500, function () {
+                document.getElementById("slika2").style.display = "None";
+            });
+            // document.getElementById("slika2").style.display = "None";
             state = "slika3";
             break;
         case "slika3":
-            document.getElementById("slika3").style.display = "None";
+            myLeft = $(document.getElementById("slika3")).css("left")
+            $(document.getElementById("slika3")).animate({
+                left: side
+            }, 500, function () {
+                document.getElementById("slika3").style.display = "None";
+            });
+            // document.getElementById("slika3").style.display = "None";
             state = "slika4";
             break;
         case "slika4":
-            document.getElementById("slika4").style.display = "None";
+            myLeft = $(document.getElementById("slika4")).css("left")
+            $(document.getElementById("slika4")).animate({
+                left: side
+            }, 500, function () {
+                document.getElementById("slika4").style.display = "None";
+            });
+            // document.getElementById("slika4").style.display = "None";
             state = "slika5";
             break;
     }
 }
 
-function proceed() {
+function proceed(s) {
     stateChange();
 }
 
@@ -55,7 +78,12 @@ function handleTouchMove(evt) {
     var yDiff = yDown - yUp;
 
     if (Math.abs(xDiff) > Math.abs(yDiff)) {
-        stateChange();
+        if (xDiff > 0) {
+            stateChange("-=100");
+        } else {
+            stateChange("+=100");
+        }
+
     } else {
         if (yDiff > 0) {
             /* down swipe */
